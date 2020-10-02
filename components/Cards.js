@@ -25,8 +25,10 @@ axios.get('https://lambda-times-api.herokuapp.com/articles')
     .then(res => {
         const article = Object.values(res.data.articles)
         article.forEach(articles => {
-            const articleCard = cardMaker(articles)
-            cardsContainer.append(articleCard)
+            articles.forEach(allArticles => {
+                const articleCard = cardMaker(allArticles)
+                cardsContainer.append(articleCard)
+            })
         })
         
         // debugger
@@ -61,6 +63,11 @@ function cardMaker (articleObject) {
     author.appendChild(byAuthor);
     imgContainer.appendChild(image);
 
+    card.addEventListener('click', () => {
+    console.log(articleObject.headline)
+    });
+
     return card
 
 }
+

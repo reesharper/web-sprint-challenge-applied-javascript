@@ -27,14 +27,20 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+    The DOM is an acronym for Document Object Model and it gives javascript the ability to manipulate, create, remove, and animate HTML and CSS
 
 2. What is an event?
+    An event is when a user interacts with a website allowing us to listen for what they do whether it is a click, scroll, button press, etc...
 
 3. What is an event listener?
+    An event listener is the method used to identify what action the use did and create a particular response for that said action.
 
 4. Why would we convert a NodeList into an Array?
+    We would do so if there is an object with multiple objects or arrays within it allowing us to iterate through that object pulling everything we need just as I did in Cards.js
+
 
 5. What is a component?
+    A componant is a function that creates an element to be appended onto the page. This allows us to create as many copies of the element we want giving great uniformity to the webpage.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -62,11 +68,11 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 Your finished project must include all of the following requirements:
 
-- [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the `index.html` file itself.
+- [x] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the `index.html` file itself.
 
-- [ ] Following the instructions in the `components/Header.js` file, create the Header.
+- [x] Following the instructions in the `components/Header.js` file, create the Header.
 
-- [ ] Following the instructions in the `components/Tabs.js` file, create the Tabs.
+- [x] Following the instructions in the `components/Tabs.js` file, create the Tabs.
 
 - [ ] Following the instructions in the `components/Cards.js` file, create the Cards.
 
